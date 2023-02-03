@@ -13,7 +13,7 @@ namespace kursach_f {
 	region *Rs;
 	int kolR;
 	/// <summary>
-	/// Сводка для Form1
+	/// РЎРІРѕРґРєР° РґР»СЏ Form1
 	/// </summary>
 	public ref class Form1 : public System::Windows::Forms::Form
 	{
@@ -22,13 +22,13 @@ namespace kursach_f {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~Form1()
 		{
@@ -64,14 +64,14 @@ namespace kursach_f {
 
 	private:
 		/// <summary>
-		/// Требуется переменная конструктора.
+		/// РўСЂРµР±СѓРµС‚СЃСЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Обязательный метод для поддержки конструктора - не изменяйте
-		/// содержимое данного метода при помощи редактора кода.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° - РЅРµ РёР·РјРµРЅСЏР№С‚Рµ
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ РґР°РЅРЅРѕРіРѕ РјРµС‚РѕРґР° РїСЂРё РїРѕРјРѕС‰Рё СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -131,7 +131,7 @@ namespace kursach_f {
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage1->Size = System::Drawing::Size(376, 235);
 			this->tabPage1->TabIndex = 0;
-			this->tabPage1->Text = L"Рейтинг регионов";
+			this->tabPage1->Text = L"Р РµР№С‚РёРЅРі СЂРµРіРёРѕРЅРѕРІ";
 			this->tabPage1->UseVisualStyleBackColor = true;
 			// 
 			// button1
@@ -141,7 +141,7 @@ namespace kursach_f {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(370, 23);
 			this->button1->TabIndex = 1;
-			this->button1->Text = L"Записать данные в файл";
+			this->button1->Text = L"Р—Р°РїРёСЃР°С‚СЊ РґР°РЅРЅС‹Рµ РІ С„Р°Р№Р»";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &Form1::button1_Click);
 			// 
@@ -159,19 +159,19 @@ namespace kursach_f {
 			// 
 			// Column1
 			// 
-			this->Column1->HeaderText = L"Код региона";
+			this->Column1->HeaderText = L"РљРѕРґ СЂРµРіРёРѕРЅР°";
 			this->Column1->Name = L"Column1";
 			this->Column1->ReadOnly = true;
 			// 
 			// Column2
 			// 
-			this->Column2->HeaderText = L"Наименование региона";
+			this->Column2->HeaderText = L"РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°";
 			this->Column2->Name = L"Column2";
 			this->Column2->ReadOnly = true;
 			// 
 			// Column3
 			// 
-			this->Column3->HeaderText = L"Ранг";
+			this->Column3->HeaderText = L"Р Р°РЅРі";
 			this->Column3->Name = L"Column3";
 			this->Column3->ReadOnly = true;
 			// 
@@ -188,7 +188,7 @@ namespace kursach_f {
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage2->Size = System::Drawing::Size(376, 235);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Запрос по коду региона";
+			this->tabPage2->Text = L"Р—Р°РїСЂРѕСЃ РїРѕ РєРѕРґСѓ СЂРµРіРёРѕРЅР°";
 			this->tabPage2->UseVisualStyleBackColor = true;
 			// 
 			// label2
@@ -198,7 +198,7 @@ namespace kursach_f {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(204, 13);
 			this->label2->TabIndex = 5;
-			this->label2->Text = L"Результат(ы) выполнения запроса(ов):";
+			this->label2->Text = L"Р РµР·СѓР»СЊС‚Р°С‚(С‹) РІС‹РїРѕР»РЅРµРЅРёСЏ Р·Р°РїСЂРѕСЃР°(РѕРІ):";
 			// 
 			// button3
 			// 
@@ -206,7 +206,7 @@ namespace kursach_f {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(150, 23);
 			this->button3->TabIndex = 4;
-			this->button3->Text = L"Очистить";
+			this->button3->Text = L"РћС‡РёСЃС‚РёС‚СЊ";
 			this->button3->UseVisualStyleBackColor = true;
 			this->button3->Click += gcnew System::EventHandler(this, &Form1::button3_Click);
 			// 
@@ -216,7 +216,7 @@ namespace kursach_f {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(150, 23);
 			this->button2->TabIndex = 3;
-			this->button2->Text = L"Выполнить запрос";
+			this->button2->Text = L"Р’С‹РїРѕР»РЅРёС‚СЊ Р·Р°РїСЂРѕСЃ";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &Form1::button2_Click);
 			// 
@@ -243,7 +243,7 @@ namespace kursach_f {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(73, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Код региона:";
+			this->label1->Text = L"РљРѕРґ СЂРµРіРёРѕРЅР°:";
 			// 
 			// tabPage3
 			// 
@@ -253,7 +253,7 @@ namespace kursach_f {
 			this->tabPage3->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage3->Size = System::Drawing::Size(376, 235);
 			this->tabPage3->TabIndex = 2;
-			this->tabPage3->Text = L"Исходные данные из файла \'regions.txt\'";
+			this->tabPage3->Text = L"РСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ РёР· С„Р°Р№Р»Р° \'regions.txt\'";
 			this->tabPage3->UseVisualStyleBackColor = true;
 			// 
 			// dataGridView2
@@ -271,17 +271,17 @@ namespace kursach_f {
 			// 
 			// Column4
 			// 
-			this->Column4->HeaderText = L"Код региона";
+			this->Column4->HeaderText = L"РљРѕРґ СЂРµРіРёРѕРЅР°";
 			this->Column4->Name = L"Column4";
 			// 
 			// Column5
 			// 
-			this->Column5->HeaderText = L"Количество диссоветов";
+			this->Column5->HeaderText = L"РљРѕР»РёС‡РµСЃС‚РІРѕ РґРёСЃСЃРѕРІРµС‚РѕРІ";
 			this->Column5->Name = L"Column5";
 			// 
 			// Column6
 			// 
-			this->Column6->HeaderText = L"Наименование региона";
+			this->Column6->HeaderText = L"РќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°";
 			this->Column6->Name = L"Column6";
 			// 
 			// tabPage4
@@ -291,7 +291,7 @@ namespace kursach_f {
 			this->tabPage4->Name = L"tabPage4";
 			this->tabPage4->Size = System::Drawing::Size(376, 235);
 			this->tabPage4->TabIndex = 3;
-			this->tabPage4->Text = L"Исходные данные из файла \'dissovets.txt\'";
+			this->tabPage4->Text = L"РСЃС…РѕРґРЅС‹Рµ РґР°РЅРЅС‹Рµ РёР· С„Р°Р№Р»Р° \'dissovets.txt\'";
 			this->tabPage4->UseVisualStyleBackColor = true;
 			// 
 			// dataGridView3
@@ -309,12 +309,12 @@ namespace kursach_f {
 			// 
 			// dataGridViewTextBoxColumn1
 			// 
-			this->dataGridViewTextBoxColumn1->HeaderText = L"Ранг диссовета";
+			this->dataGridViewTextBoxColumn1->HeaderText = L"Р Р°РЅРі РґРёСЃСЃРѕРІРµС‚Р°";
 			this->dataGridViewTextBoxColumn1->Name = L"dataGridViewTextBoxColumn1";
 			// 
 			// dataGridViewTextBoxColumn2
 			// 
-			this->dataGridViewTextBoxColumn2->HeaderText = L"Наименование диссовета";
+			this->dataGridViewTextBoxColumn2->HeaderText = L"РќР°РёРјРµРЅРѕРІР°РЅРёРµ РґРёСЃСЃРѕРІРµС‚Р°";
 			this->dataGridViewTextBoxColumn2->Name = L"dataGridViewTextBoxColumn2";
 			// 
 			// Form1
@@ -324,7 +324,7 @@ namespace kursach_f {
 			this->ClientSize = System::Drawing::Size(384, 261);
 			this->Controls->Add(this->tabControl1);
 			this->Name = L"Form1";
-			this->Text = L"Субъекты РФ";
+			this->Text = L"РЎСѓР±СЉРµРєС‚С‹ Р Р¤";
 			this->Load += gcnew System::EventHandler(this, &Form1::Form1_Load);
 			this->tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
@@ -402,14 +402,14 @@ private: System::Void button1_Click(System::Object^  sender, System::EventArgs^ 
 			 FILE *fout;
 			 String^ nameR;
 			 fout=fopen("output.xls","wt");
-			 fprintf(fout,"Код региона\tНаименование региона\tРанг региона\n");
+			 fprintf(fout,"РљРѕРґ СЂРµРіРёРѕРЅР°\tРќР°РёРјРµРЅРѕРІР°РЅРёРµ СЂРµРіРёРѕРЅР°\tР Р°РЅРі СЂРµРіРёРѕРЅР°\n");
 			 for(i=0;i<kolR;i++)
 			 {
 				 nameR = gcnew String(Rs[i].name);
 				 fprintf(fout,"%d%s\t%d\n",Rs[i].id,nameR->Trim('\n'),Rs[i].rang);
 			 }
 			 fclose(fout);
-			 MessageBox::Show("Запись данных в файл 'output.xls' успешно выполнена!", "Информация",
+			 MessageBox::Show("Р—Р°РїРёСЃСЊ РґР°РЅРЅС‹С… РІ С„Р°Р№Р» 'output.xls' СѓСЃРїРµС€РЅРѕ РІС‹РїРѕР»РЅРµРЅР°!", "РРЅС„РѕСЂРјР°С†РёСЏ",
 				 MessageBoxButtons::OK, MessageBoxIcon::Information);
 		 }
 private: System::Void button2_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -421,10 +421,10 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 				 {
 					 check=1;
 					 nameR=gcnew String(Rs[i].name);
-					 textBox1->Text+=(nameR->Trim('\t')+", ранг равен "+Convert::ToString(Rs[i].rang)+"\r\n");
+					 textBox1->Text+=(nameR->Trim('\t')+", СЂР°РЅРі СЂР°РІРµРЅ "+Convert::ToString(Rs[i].rang)+"\r\n");
 				 }
 				 if(!check)
-					 MessageBox::Show("Регион с кодом "+Convert::ToString(id)+" не найден!", "Сообщение",
+					 MessageBox::Show("Р РµРіРёРѕРЅ СЃ РєРѕРґРѕРј "+Convert::ToString(id)+" РЅРµ РЅР°Р№РґРµРЅ!", "РЎРѕРѕР±С‰РµРЅРёРµ",
 					 MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 		 }
 private: System::Void button3_Click(System::Object^  sender, System::EventArgs^  e) {
